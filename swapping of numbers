@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int i=20,j=30,k;
+printf("Numbers before swapping: %d %d\n",i,j);
+k=i;
+i=j;
+j=k;
+printf("Numbers after swapping are: %d %d",i,j);
+getch();
+return 0;
+}
